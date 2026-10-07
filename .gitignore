@@ -1,0 +1,43 @@
+.idea/
+.DS_Store
+*.iml
+.env
+.env.*
+!.env.example
+backend/target/
+web/node_modules/
+web/dist/
+*.log
+*.pid
+*.cookies.txt
+cookies.txt
+*.pem
+*.key
+*.p12
+.playwright-cli/
+mysql/data/
+mysql/logs/
+redis/data/
+qdrant/data/
+minio/data/
+ 
+
+# Local case tracing (may contain user video text)
+.case-traces/
+
+# Local recorded case includes the user's video and model context.
+# Exported for local interview replay; not committed or published automatically.
+web/public/cases/learning-how-to-learn/
+
+# Local historical notes and private verification summaries
+docs/verification.json
+docs/extension-sidepanel-design.md
+docs/interview-qa-six-pillars.md
+docs/interview-qa-v2.md
+docs/review-2026-09-29.md
+docs/review-2026-09-30.md
+docs/images/video-library.png
+docs/images/video-agent-demo.png
+docs/images/login-register.png
+docs/images/agent-result.png
+docs/images/agent-compose.png
